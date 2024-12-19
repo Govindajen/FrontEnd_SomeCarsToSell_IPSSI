@@ -1,0 +1,104 @@
+
+/* Center the container on the screen */
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background: #ffffff; /* White background for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Headings for title styling */
+.loginContainer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: orange; /* Blue for a pop of color */
+}
+
+/* Style the input container */
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Add spacing between input fields */
+    width: 100%;
+}
+
+/* Style individual inputs */
+.inputLogin {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 16px;
+    background-color: #fafafa; /* Light background for inputs */
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+/* Add focus styles for inputs */
+.inputLogin:focus {
+    outline: none;
+    border-color: orange; /* Blue border on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Subtle blue glow */
+}
+
+/* Style the buttons */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: orange; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+/* Button hover and active effects */
+.btn:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.btn:active {
+    background-color: #004494; /* Even darker blue */
+    transform: translateY(1px); /* Pressed effect */
+}
+
+/* Error message styling */
+.errorMessage {
+    color: #ff4d4f; /* Vibrant red for errors */
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 480px) {
+    .loginContainer {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .inputLogin {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

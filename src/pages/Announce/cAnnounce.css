@@ -1,0 +1,83 @@
+/* Container for the entire form */
+.form-container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading style */
+  .form-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff6600; /* Orange color */
+  }
+  
+  /* Form group (each label + input pair) */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  .form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Input and select styles */
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #ff6600; /* Orange focus border */
+    box-shadow: 0 0 5px rgba(255, 102, 0, 0.5);
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    padding: 12px 20px;
+    background-color: #ff6600; /* Orange background */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e55b00; /* Darker orange on hover */
+  }
+  
+  /* Style for textareas */
+  textarea.form-input {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  /* For disabling the model dropdown when no brand is selected */
+  select:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  
+  /* Style for form groups and form inputs when focus is on */
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #ff6600; /* Highlight input fields with orange */
+  }
+  

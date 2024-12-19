@@ -1,0 +1,50 @@
+[
+    { "_id": "1", "name": "Corolla", "brandId": "1" },
+    { "_id": "2", "name": "Camry", "brandId": "1" },
+    { "_id": "3", "name": "Hilux", "brandId": "1" },
+    { "_id": "4", "name": "RAV4", "brandId": "1" },
+    { "_id": "5", "name": "Land Cruiser", "brandId": "1" },
+  
+    { "_id": "6", "name": "Civic", "brandId": "2" },
+    { "_id": "7", "name": "Accord", "brandId": "2" },
+    { "_id": "8", "name": "CR-V", "brandId": "2" },
+    { "_id": "9", "name": "Pilot", "brandId": "2" },
+    { "_id": "10", "name": "HR-V", "brandId": "2" },
+  
+    { "_id": "11", "name": "Mustang", "brandId": "3" },
+    { "_id": "12", "name": "F-150", "brandId": "3" },
+    { "_id": "13", "name": "Explorer", "brandId": "3" },
+    { "_id": "14", "name": "Escape", "brandId": "3" },
+    { "_id": "15", "name": "Fusion", "brandId": "3" },
+  
+    { "_id": "16", "name": "3 Series", "brandId": "4" },
+    { "_id": "17", "name": "5 Series", "brandId": "4" },
+    { "_id": "18", "name": "X5", "brandId": "4" },
+    { "_id": "19", "name": "7 Series", "brandId": "4" },
+    { "_id": "20", "name": "M3", "brandId": "4" },
+  
+    { "_id": "21", "name": "C-Class", "brandId": "5" },
+    { "_id": "22", "name": "E-Class", "brandId": "5" },
+    { "_id": "23", "name": "S-Class", "brandId": "5" },
+    { "_id": "24", "name": "GLC", "brandId": "5" },
+    { "_id": "25", "name": "AMG GT", "brandId": "5" },
+  
+    { "_id": "26", "name": "Tacoma", "brandId": "1" },
+    { "_id": "27", "name": "Supra", "brandId": "1" },
+    { "_id": "28", "name": "Avalon", "brandId": "1" },
+    { "_id": "29", "name": "Venza", "brandId": "1" },
+    { "_id": "30", "name": "Sequoia", "brandId": "1" },
+  
+    { "_id": "31", "name": "Jazz", "brandId": "2" },
+    { "_id": "32", "name": "Insight", "brandId": "2" },
+    { "_id": "33", "name": "Ridgeline", "brandId": "2" },
+    { "_id": "34", "name": "Odyssey", "brandId": "2" },
+    { "_id": "35", "name": "Passport", "brandId": "2" },
+  
+    { "_id": "36", "name": "Edge", "brandId": "3" },
+    { "_id": "37", "name": "Ranger", "brandId": "3" },
+    { "_id": "38", "name": "Bronco", "brandId": "3" },
+    { "_id": "39", "name": "Maverick", "brandId": "3" },
+    { "_id": "40", "name": "Mustang Mach-E", "brandId": "3" }
+  ]
+  

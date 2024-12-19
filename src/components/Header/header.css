@@ -1,0 +1,58 @@
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    margin: 0 12px;
+    padding: 16px;
+    color:  orange;
+}
+
+.links {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navItem {
+    min-width: 70px;
+    margin: 3px 6px;
+    padding: 16px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    border-bottom: 1px solid darkblue;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+.navItem:hover {
+    color: blue;
+}
+
+.logout {
+    background-color: rgb(255, 210, 12);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    cursor: pointer;
+    margin: 10px 6px;
+}
+.spacer {
+    height: 70%;
+    
+    border-left : 1px solid black;
+}
+.welcome {
+    margin: 0 6px;
+}
+
+.name {
+    color: orange;
+    font-weight: bold;
+}
